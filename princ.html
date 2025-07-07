@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimplificadorOfi</title>
+    <link rel="stylesheet" href="princ.css">
+</head>
+
+
+
+<body id="bodyy" onmouseover="vend()">
+    <a href="https://docs.google.com/spreadsheets/d/1opgFqcXEUyL8TMPCCTEr8ItxnU_pmeMapJ0-Mw_k1oI/edit?usp=sharing"
+        target="_blank" style="position: absolute;margin-top: -24%;margin-left: 90%;"><img src="imagens/excel.png"
+            width="150px"> </a> <a
+        href="https://docs.google.com/spreadsheets/d/1opgFqcXEUyL8TMPCCTEr8ItxnU_pmeMapJ0-Mw_k1oI/edit?usp=sharing"
+        target="_blank" style="position: absolute;margin-top: -24%;margin-left: 90%;"><img src="imagens/excel.png"
+            width="150px"> </a>
+    <h1 id="bem">
+        <p>Simplifica</p>
+    </h1>
+    <div id="titulo">
+        Dados:
+    </div>
+    <form id="tr"
+        action="https://script.google.com/macros/s/AKfycbwC-8AM_SGj92d3LfvcI6kR33H1Vk5yDtBSCsOty2S_5EwQY0bGFODLRf8MYsQIYeiliA/exec"
+        method="POST">
+        <input id="aa" type="text" placeholder="Data" name="data" />
+        <input id="bb" type="text" placeholder="Nome completo" name="nome" />
+        <input id="cc" type="text" placeholder="Produto" name="produto" />
+        <input id="dd" type="text" placeholder="Valor" name="valor" />
+        <input id="df" style="opacity: 100;margin-top: -100%;position: absolute;" type="text" name="vendedor" />
+        <input type="submit" value="Enviar" onclick="pegapega()"
+            style="opacity: 100%;margin-left: -200%;width: 250px;height: 80px;margin-top: 5.3%;position: absolute;opacity: 0;z-index: 8;" />
+
+    </form>
+
+    <div id="pedidos">
+        <img src="imagens/lista (2).png" width="150px">
+    </div>
+
+    <div id="caixadepedidos" style="z-index: 999;">
+        <button onclick="sair()" id="fechar">X
+        </button>
+
+        <div id="itensPedidos" style="display: flex;flex-direction: row;">
+            <div id="ultimo">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index2.js"></script>
+    <button style="position: absolute;top: 2%; left: 2%; width: 150px;height: 150px;opacity: 0;"
+        onclick="MenuPedidos()">botao</button>
+
+</body>
+
+
+</html>

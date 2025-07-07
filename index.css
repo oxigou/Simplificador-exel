@@ -1,0 +1,1128 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+}
+
+#bola1 {
+    margin-top: -930px;
+    position: absolute;
+    left: -620px;
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    transition: 2s;
+    background: linear-gradient(rgb(59, 22, 94), rgb(41, 26, 68), rgb(34, 18, 80), rgb(17, 2, 46));
+    box-shadow: 5px 5px 5px black;
+
+}
+
+#bola2 {
+    box-shadow: -5px -5px 5px black;
+    transition: 2s;
+    bottom: -900px;
+    right: -520px;
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(17, 2, 46), rgb(34, 18, 80), rgb(41, 26, 68), rgb(59, 22, 94));
+}
+
+#bem {
+    z-index: 999;
+    box-shadow: 5px 5px 5px black;
+    transition: 2s;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -640px;
+    background: linear-gradient(rgb(87, 61, 61, 10%), rgb(55, 13, 133, 10%));
+    width: 640px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20% 0%;
+}
+
+p {
+    font-size: 64px;
+    color: white;
+}
+
+#logins {
+    display: flex;
+    flex-direction: column;
+    margin-left: 38%;
+    margin-top: 18%;
+    position: absolute;
+    font-size: 50px;
+    opacity: 0%;
+    transition: 5s;
+    background: rgb(255, 254, 254, 1%);
+    padding: 2%;
+    border-radius: 20%;
+    height: 300px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px black;
+}
+
+#ggg {
+    font-size: 30px;
+    background: rgb(255, 254, 254, 5%);
+}
+
+#ttt {
+    font-size: 30px;
+    background: rgb(255, 254, 254, 5%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo {
+    color: white;
+    margin-bottom: 2%;
+}
+
+
+@media screen and (min-width: 1751px) and (min-height: 905px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+
+    }
+
+    #bola1 {
+        margin-top: -930px;
+        position: fixed;
+        left: -670px;
+        width: 900px;
+        height: 900px;
+        border-radius: 50%;
+        transition: 2s;
+        background: linear-gradient(rgb(59, 22, 94), rgb(41, 26, 68), rgb(34, 18, 80), rgb(17, 2, 46));
+        box-shadow: 5px 5px 5px black;
+
+    }
+
+    #bola2 {
+        box-shadow: -5px -5px 5px black;
+        transition: 2s;
+        bottom: -900px;
+        right: -570px;
+        position: fixed;
+        width: 900px;
+        height: 900px;
+        border-radius: 50%;
+        background: linear-gradient(rgb(17, 2, 46), rgb(34, 18, 80), rgb(41, 26, 68), rgb(59, 22, 94));
+    }
+
+    #bem {
+        z-index: 999;
+        box-shadow: 5px 5px 5px black;
+        transition: 2s;
+        position: absolute;
+        margin-left: 33%;
+        margin-top: -640px;
+        background: linear-gradient(rgb(87, 61, 61, 10%), rgb(55, 13, 133, 10%));
+        width: 640px;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20% 0%;
+    }
+
+    p {
+        font-size: 64px;
+        color: white;
+    }
+
+    #logins {
+        display: flex;
+        flex-direction: column;
+        margin-left: 38%;
+        margin-top: 18%;
+        position: absolute;
+        font-size: 50px;
+        opacity: 0%;
+        transition: 5s;
+        background: rgb(255, 254, 254, 1%);
+        padding: 2%;
+        border-radius: 20%;
+        height: 300px;
+        justify-content: center;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    #ggg {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    #ttt {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1754px) and (max-height: 1420px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+
+    }
+
+    #bola1 {
+        margin-top: -930px;
+        position: fixed;
+        left: -770px;
+        width: 900px;
+        height: 900px;
+        border-radius: 50%;
+        transition: 2s;
+        background: linear-gradient(rgb(59, 22, 94), rgb(41, 26, 68), rgb(34, 18, 80), rgb(17, 2, 46));
+        box-shadow: 5px 5px 5px black;
+
+    }
+
+    #bola2 {
+        box-shadow: -5px -5px 5px black;
+        transition: 2s;
+        bottom: -900px;
+        right: -670px;
+        position: fixed;
+        width: 900px;
+        height: 900px;
+        border-radius: 50%;
+        background: linear-gradient(rgb(17, 2, 46), rgb(34, 18, 80), rgb(41, 26, 68), rgb(59, 22, 94));
+    }
+
+    #bem {
+        z-index: 999;
+        box-shadow: 5px 5px 5px black;
+        transition: 2s;
+        position: absolute;
+        margin-left: 30%;
+        margin-top: -640px;
+        background: linear-gradient(rgb(87, 61, 61, 10%), rgb(55, 13, 133, 10%));
+        width: 600px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20% 0%;
+
+    }
+
+    p {
+        font-size: 50px;
+        color: white;
+    }
+
+    #logins {
+        display: flex;
+        flex-direction: column;
+        margin-left: 34%;
+        margin-top: 18%;
+        position: absolute;
+        font-size: 50px;
+        opacity: 0%;
+        transition: 5s;
+        background: rgb(255, 254, 254, 1%);
+        padding: 2%;
+        border-radius: 20%;
+        height: 300px;
+        justify-content: center;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    #ggg {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    #ttt {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1580px) and (max-height: 1420px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+
+    }
+
+    #bola1 {
+        margin-top: -930px;
+        position: fixed;
+        left: -770px;
+        width: 750px;
+        height: 750px;
+        border-radius: 50%;
+        transition: 2s;
+        background: linear-gradient(rgb(59, 22, 94), rgb(41, 26, 68), rgb(34, 18, 80), rgb(17, 2, 46));
+        box-shadow: 5px 5px 5px black;
+
+    }
+
+    #bola2 {
+        box-shadow: -5px -5px 5px black;
+        transition: 2s;
+        bottom: -850px;
+        right: -550px;
+        position: fixed;
+        width: 750px;
+        height: 750px;
+        border-radius: 50%;
+        background: linear-gradient(rgb(17, 2, 46), rgb(34, 18, 80), rgb(41, 26, 68), rgb(59, 22, 94));
+    }
+
+    #bem {
+        z-index: 999;
+        box-shadow: 5px 5px 5px black;
+        transition: 2s;
+        position: absolute;
+        margin-left: 60vh;
+        margin-top: -640px;
+        background: linear-gradient(rgb(87, 61, 61, 10%), rgb(55, 13, 133, 10%));
+        width: 500px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20% 0%;
+
+    }
+
+    p {
+        font-size: 46px;
+        color: white;
+    }
+
+    #logins {
+        display: flex;
+        flex-direction: column;
+        margin-left: 62vh;
+        margin-top: 18%;
+        position: absolute;
+        font-size: 50px;
+        opacity: 0%;
+        transition: 5s;
+        background: rgb(255, 254, 254, 1%);
+        padding: 2%;
+        border-radius: 20%;
+        height: 300px;
+        justify-content: center;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    #ggg {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    #ttt {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1264px) and (max-height: 1420px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+
+    }
+
+    #bola1 {
+        margin-top: -930px;
+        position: fixed;
+        left: -770px;
+        width: 750px;
+        height: 750px;
+        border-radius: 50%;
+        transition: 2s;
+        background: linear-gradient(rgb(59, 22, 94), rgb(41, 26, 68), rgb(34, 18, 80), rgb(17, 2, 46));
+        box-shadow: 5px 5px 5px black;
+
+    }
+
+    #bola2 {
+        box-shadow: -5px -5px 5px black;
+        transition: 2s;
+        bottom: -900px;
+        right: -670px;
+        position: fixed;
+        width: 800px;
+        height: 800px;
+        border-radius: 50%;
+        background: linear-gradient(rgb(17, 2, 46), rgb(34, 18, 80), rgb(41, 26, 68), rgb(59, 22, 94));
+    }
+
+    #bem {
+        z-index: 999;
+        box-shadow: 5px 5px 5px black;
+        transition: 2s;
+        position: absolute;
+        margin-left: 24%;
+        margin-top: -640px;
+        background: linear-gradient(rgb(87, 61, 61, 10%), rgb(55, 13, 133, 10%));
+        width: 600px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20% 0%;
+
+    }
+
+    p {
+        font-size: 50px;
+        color: white;
+    }
+
+    #logins {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        margin-top: 18%;
+        position: absolute;
+        font-size: 50px;
+        opacity: 0%;
+        transition: 5s;
+        background: rgb(255, 254, 254, 1%);
+        padding: 2%;
+        border-radius: 20%;
+        height: 300px;
+        justify-content: center;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    #ggg {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    #ttt {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1195px) and (max-height: 1420px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+
+    }
+
+    #bola1 {
+        margin-top: -930px;
+        position: fixed;
+        left: -770px;
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        transition: 2s;
+        background: linear-gradient(rgb(59, 22, 94), rgb(41, 26, 68), rgb(34, 18, 80), rgb(17, 2, 46));
+        box-shadow: 5px 5px 5px black;
+
+    }
+
+    #bola2 {
+        box-shadow: -5px -5px 5px black;
+        transition: 2s;
+        bottom: -900px;
+        right: -670px;
+        position: fixed;
+        width: 750px;
+        height: 750px;
+        border-radius: 50%;
+        background: linear-gradient(rgb(17, 2, 46), rgb(34, 18, 80), rgb(41, 26, 68), rgb(59, 22, 94));
+    }
+
+    #bem {
+        z-index: 999;
+        box-shadow: 5px 5px 5px black;
+        transition: 2s;
+        position: absolute;
+        margin-left: 24%;
+        margin-top: -640px;
+        background: linear-gradient(rgb(87, 61, 61, 10%), rgb(55, 13, 133, 10%));
+        width: 600px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20% 0%;
+
+    }
+
+    p {
+        font-size: 50px;
+        color: white;
+    }
+
+    #logins {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        margin-top: 18%;
+        position: absolute;
+        font-size: 50px;
+        opacity: 0%;
+        transition: 5s;
+        background: rgb(255, 254, 254, 1%);
+        padding: 2%;
+        border-radius: 20%;
+        height: 300px;
+        justify-content: center;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    #ggg {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    #ttt {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1150px) and (max-height: 1420px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+
+    }
+
+    #bola1 {
+        margin-top: -930px;
+        position: fixed;
+        left: -770px;
+        width: 650px;
+        height: 650px;
+        border-radius: 50%;
+        transition: 2s;
+        background: linear-gradient(rgb(59, 22, 94), rgb(41, 26, 68), rgb(34, 18, 80), rgb(17, 2, 46));
+        box-shadow: 5px 5px 5px black;
+
+    }
+
+    #bola2 {
+        box-shadow: -5px -5px 5px black;
+        transition: 2s;
+        bottom: -900px;
+        right: -670px;
+        position: fixed;
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        background: linear-gradient(rgb(17, 2, 46), rgb(34, 18, 80), rgb(41, 26, 68), rgb(59, 22, 94));
+    }
+
+    #bem {
+        z-index: 999;
+        box-shadow: 5px 5px 5px black;
+        transition: 2s;
+        position: absolute;
+        margin-left: 24%;
+        margin-top: -640px;
+        background: linear-gradient(rgb(87, 61, 61, 10%), rgb(55, 13, 133, 10%));
+        width: 600px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20% 0%;
+
+    }
+
+    p {
+        font-size: 50px;
+        color: white;
+    }
+
+    #logins {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        margin-top: 18%;
+        position: absolute;
+        font-size: 50px;
+        opacity: 0%;
+        transition: 5s;
+        background: rgb(255, 254, 254, 1%);
+        padding: 2%;
+        border-radius: 20%;
+        height: 300px;
+        justify-content: center;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    #ggg {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    #ttt {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 909px) and (max-height: 614px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+
+    }
+
+    #bola1 {
+        margin-top: -930px;
+        position: fixed;
+        left: -770px;
+        width: 650px;
+        height: 650px;
+        border-radius: 50%;
+        transition: 2s;
+        background: linear-gradient(rgb(59, 22, 94), rgb(41, 26, 68), rgb(34, 18, 80), rgb(17, 2, 46));
+        box-shadow: 5px 5px 5px black;
+
+    }
+
+    #bola2 {
+        box-shadow: -5px -5px 5px black;
+        transition: 2s;
+        bottom: -900px;
+        right: -670px;
+        position: fixed;
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        background: linear-gradient(rgb(17, 2, 46), rgb(34, 18, 80), rgb(41, 26, 68), rgb(59, 22, 94));
+    }
+
+    #bem {
+        z-index: 999;
+        box-shadow: 5px 5px 5px black;
+        transition: 2s;
+        position: absolute;
+        margin-left: 24%;
+        margin-top: -640px;
+        background: linear-gradient(rgb(87, 61, 61, 10%), rgb(55, 13, 133, 10%));
+        width: 500px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20% 0%;
+
+    }
+
+    p {
+        font-size: 40px;
+        color: white;
+    }
+
+    #logins {
+        display: flex;
+        flex-direction: column;
+        margin-left: 26%;
+        margin-top: 24%;
+        position: absolute;
+        font-size: 50px;
+        opacity: 0%;
+        transition: 5s;
+        background: rgb(255, 254, 254, 1%);
+        padding: 2%;
+        border-radius: 20%;
+        height: 200px;
+        justify-content: center;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    #ggg {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    #ttt {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 661px) and (max-height: 614px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+
+    }
+
+    #bola1 {
+        margin-top: -930px;
+        position: fixed;
+        left: -770px;
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        transition: 2s;
+        background: linear-gradient(rgb(59, 22, 94), rgb(41, 26, 68), rgb(34, 18, 80), rgb(17, 2, 46));
+        box-shadow: 5px 5px 5px black;
+
+    }
+
+    #bola2 {
+        box-shadow: -5px -5px 5px black;
+        transition: 2s;
+        bottom: -900px;
+        right: -670px;
+        position: fixed;
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        background: linear-gradient(rgb(17, 2, 46), rgb(34, 18, 80), rgb(41, 26, 68), rgb(59, 22, 94));
+    }
+
+    #bem {
+        z-index: 999;
+        box-shadow: 5px 5px 5px black;
+        transition: 2s;
+        position: absolute;
+        margin-left: 24%;
+        margin-top: -640px;
+        background: linear-gradient(rgb(87, 61, 61, 10%), rgb(55, 13, 133, 10%));
+        width: 400px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20% 0%;
+
+    }
+
+    p {
+        font-size: 40px;
+        color: white;
+    }
+
+    #logins {
+        display: flex;
+        flex-direction: column;
+        margin-left: 26%;
+        margin-top: 34%;
+        position: absolute;
+        font-size: 50px;
+        opacity: 0%;
+        transition: 5s;
+        background: rgb(255, 254, 254, 1%);
+        padding: 2%;
+        border-radius: 20%;
+        height: 200px;
+        justify-content: center;
+        box-shadow: 5px 5px 5px black;
+        width: 300px;
+    }
+
+    #ggg {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    #ttt {
+        font-size: 30px;
+        background: rgb(255, 254, 254, 5%);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 2%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1017px) and (max-height: 1000px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+        position: relative;
+    }
+
+
+
+    #bola1 {
+        display: none;
+    }
+
+    #bola2 {
+        display: none;
+    }
+
+    #bem {
+        z-index: 999;
+        position: absolute;
+        top: 170px;
+        left: 15vh;
+        transform: translateX(-50%);
+        width: 400px;
+        max-width: 350px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(87, 61, 61, 0.1), rgba(55, 13, 133, 0.1));
+        border-radius: 20% 0%;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    p {
+        font-size: 30px;
+        color: white;
+        margin: 0;
+        text-align: center;
+    }
+
+    #logins {
+        position: absolute;
+        top: 300px;
+        left: 12vh;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.01);
+        padding: 20px;
+        border-radius: 20%;
+        box-shadow: 5px 5px 5px black;
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+        font-size: 20px;
+        opacity: 0%;
+        transition: 5s;
+    }
+
+    #ggg,
+    #ttt {
+        font-size: 18px;
+        background: rgba(255, 255, 255, 0.05);
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 10px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 659px) and (max-height: 765px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+        position: relative;
+    }
+
+
+
+    #bola1 {
+        display: none;
+    }
+
+    #bola2 {
+        display: none;
+    }
+
+    #bem {
+        z-index: 999;
+        position: absolute;
+        top: 170px;
+        left: -15vh;
+        transform: translateX(-50%);
+        width: 400px;
+        max-width: 350px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(87, 61, 61, 0.1), rgba(55, 13, 133, 0.1));
+        border-radius: 20% 0%;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    p {
+        font-size: 30px;
+        color: white;
+        margin: 0;
+        text-align: center;
+    }
+
+    #logins {
+        position: absolute;
+        top: 300px;
+        left: -15vh;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.01);
+        padding: 20px;
+        border-radius: 20%;
+        box-shadow: 5px 5px 5px black;
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+        font-size: 20px;
+        opacity: 0%;
+        transition: 5s;
+    }
+
+    #ggg,
+    #ttt {
+        font-size: 18px;
+        background: rgba(255, 255, 255, 0.05);
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 10px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) and (max-height: 896px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(16, 16, 19), rgb(30, 24, 80));
+        position: relative;
+    }
+
+
+
+    #bola1 {
+        display: none;
+    }
+
+    #bola2 {
+        display: none;
+    }
+
+    #bem {
+        z-index: 999;
+        position: absolute;
+        top: 2vh;
+        left: 13vh;
+        transform: translateX(-50%);
+        width: 250px;
+        max-width: 350px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(87, 61, 61, 0.1), rgba(55, 13, 133, 0.1));
+        border-radius: 20% 0%;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    p {
+        font-size: 30px;
+        color: white;
+        margin: 0;
+        text-align: center;
+    }
+
+    #logins {
+        position: absolute;
+        top: 30vh;
+        left: 10vh;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.01);
+        padding: 20px;
+        border-radius: 20%;
+        box-shadow: 5px 5px 5px black;
+        width: 40%;
+        max-width: 300px;
+        height: auto;
+        font-size: 20px;
+        opacity: 0%;
+        transition: 5s;
+    }
+
+    #ggg,
+    #ttt {
+        font-size: 18px;
+        background: rgba(255, 255, 255, 0.05);
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #titulo {
+        color: white;
+        margin-bottom: 10px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
