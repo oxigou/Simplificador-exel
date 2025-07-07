@@ -31,7 +31,7 @@ function VerificadorDeSenhas(event) {
 
     const Usuarios = {
         "MarcosTel": "1020",
-        "Karol": "D652",
+        "Carol": "C652",
         "Ester": "G652",
         "Camil.azica": "Z6172",
         "Ana": "A0316",
@@ -43,7 +43,7 @@ function VerificadorDeSenhas(event) {
 
     if (Usuarios[user] === password) {
         localStorage.setItem("vendedor", user);
-        if (user === "Karol") { alert("Mal-Vinda, Loira Padrao") };
+        if (user === "Carol") { alert("Mal-Vinda, Loira Padrao") };
         if (user === "Ester") { alert("Bem-Vinda, Rayne") };
         if (user === "Camil.azica") { alert("Bem-Vinda, Magali!") };
         if (user === "Ana") { alert("Bem-Vinda Aninha") };
