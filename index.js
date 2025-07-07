@@ -1,51 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="index.css">
+</head>
 
-function animation1() {
-    let bola1 = document.getElementById("bola1");
-    let bola2 = document.getElementById("bola2");
-    let texto3 = document.getElementById("bem");
-    let th = document.getElementById("logins");
+<body id="bodyy">
+    <div id="bem">
+        <p>Bem-vindo ao simplifica</p>
+    </div>
+    <div id="logins">
+        <div id="titulo">
+            Login:
+        </div>
+        <div id="usuarios">
+            <form onsubmit="return VerificadorDeSenhas(event)">
+                <input id="ttt" type="text" placeholder="Usuário" />
+                <input id="ggg" type="password" placeholder="Senha" />
+                <input type="submit" value="Entrar" style="background:rgb(255, 255, 255);" />
+            </form>
 
-    bola1.style.marginTop = "-300px";
-    bola1.style.marginLeft = "300px";
+        </div>
+    </div>
 
-    bola2.style.marginBottom = "450px"
-    bola2.style.marginRight = "300px"
+    <div id="bola1"></div>
+    <div id="bola2"></div>
 
-    texto3.style.marginTop = "50px"
+    <script src="index.js"></script>
+</body>
 
-    th.style.opacity = "100%"
-}
-
-window.onload = animation1;
-
-
-
-
-function VerificadorDeSenhas(event) {
-    event.preventDefault();
-
-    const user = document.getElementById("ttt").value;
-    const password = document.getElementById("ggg").value;
-
-    const Usuarios = {
-        "MarcosTel": "1020",
-        "Karol": "D652",
-        "Ester": "G652",
-        "Camil.azica": "Z6172",
-        "Ana": "A0316",
-        "Rosaria": "R0518",
-        "Nayara": "N0520",
-        "Ana.vic": "Victorino123",
-
-    };
-
-    if (Usuarios[user] === password) {
-        localStorage.setItem("vendedor", user);
-        window.location.href = "princ.html";
-    } else {
-        alert("Usuário ou senha incorretos!");
-    }
-}
-
-
+</html>
