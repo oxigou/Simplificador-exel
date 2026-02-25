@@ -24,7 +24,7 @@ function VerificadorDeSenhas(event) {
         "Rosaria": "R0518",
         "Nayara": "N0520",
         "Ana.vic": "Victorino123",
-        "Maura.lab": "maura123",
+        "Maura": "MAURA",
 
     };
 
@@ -97,5 +97,6 @@ function exibirTodasVendas() {
 }
 
 window.onload = exibirTodasVendas;
+
 
 
